@@ -43,10 +43,10 @@ export default function Home() {
   const [seguidores, setSeguidores] = useState([]);
   const [amigos, setAmigos] = useState([]);
 
-  const githubUser = 'juniormartinsdev';
+  const githubUser = 'juniormartinxo';
 
   useEffect(() => {
-    fetch('https://api.github.com/users/peas/followers')
+    fetch('https://api.github.com/users/juniormartinxo/followers')
       .then(response => {
         if (response.ok) {
           return response.json();
