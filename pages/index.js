@@ -58,7 +58,7 @@ export default function Home() {
         setSeguidores(responseFinal);
       });
 
-    fetch('http://localhost:3000/api/amigos')
+    fetch('api/amigos')
       .then(response => {
         if (response.ok) {
           return response.json();
@@ -70,7 +70,7 @@ export default function Home() {
         setAmigos(responseFinal);
       });
 
-    fetch('http://localhost:3000/api/usuarios')
+    fetch('api/usuarios')
       .then(response => {
         if (response.ok) {
           return response.json();
