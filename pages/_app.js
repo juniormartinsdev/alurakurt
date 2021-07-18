@@ -62,6 +62,8 @@ export default function App({ Component, pageProps }) {
           href='https://fonts.googleapis.com/css2?family=Noto+Sans&family=Pacifico&display=swap'
           rel='stylesheet'
         />
+        <title>Alurakurt</title>
+        <link rel='shortcut icon' href='/static/favicon.ico' />
       </Helmet>
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
